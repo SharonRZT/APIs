@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Practica Api's de HTML</title>
+</head>
+<body>
+    <H1>API's de HTML: Input FILE</H1>
+
+    <input type="file" id="inputFile" accept="video/*">
+    <div id="loading" class="hidden">cargando...</div>
+    <div id="videoContainer" class="hidden">
+        <video id="videoPlayer" width="640" height="360" controls>
+            Tu navegador no soporta la reproducción de vídeo.
+        </video>
+    </div>
+    <div id="controls" class="hidden">
+        <button><i class="bi bi-play-fill hidden" id="play">PLAY</i> 
+        <i class="bi bi-pause-fill hidden" id="pause">PAUSE</i></button>
+        <button><i class="bi bi-volume-down-fill hidden" id="volumeDown">VOLUME DOWN</i></button>
+        <button><i class="bi bi-volume-up-fill hidden" id="volumeUp">VOLUME UP</i></button>
+    </div>
+    
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>

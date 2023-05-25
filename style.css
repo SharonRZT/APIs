@@ -1,0 +1,45 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
+
+body {
+    background-color: rgb(222, 222, 241);
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    color: rgb(43, 19, 150);
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+h1 {
+    color: rgb(45, 11, 113);
+    font-family:Arial, Helvetica, sans-serif
+
+}
+
+.hidden {
+    display: none;
+}
+
+#loading {
+    margin-top: 1rem;
+    font-style: italic;
+    color: rgb(10, 10, 10);
+    font-size:medium;
+}
+
+#videoContainer {
+    margin-top: 1rem;
+    position: relative;
+}
+
+button {
+    cursor: pointer;
+    margin-right: 24px;
+    border: 2px solid rgb(63, 62, 81);
+    padding: 8px;
+    border-radius: 5px;
+    font-size: 16px;
+    background: rgb(195, 171, 241);
+    color: rgb(45, 11, 113);
+}
